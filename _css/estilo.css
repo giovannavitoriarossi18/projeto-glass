@@ -136,7 +136,7 @@ footer#rodape{
 
 }
 /*formatacao de tabela*/
-table#laspecs{
+table#tabelaspecs{
    border: 1px solid #650b5c;
    border-spacing: 0px;
    margin-left: auto;
@@ -147,10 +147,29 @@ table#tabelaspecs td{
 
    border: 1px solid #58044c;
    padding: 10px;
-
    
 }
+table#tabelaspecs td.ce{
+   color: hsl(0, 3%, 6%);
+   background-color: hsl(305, 84%, 25%);
+   vertical-align: top;
+   font-weight: bold;
 
+}
+table#tabelaspecs td.cd{
+   background-color: rgb(253, 253, 253);
+   font-size: 13pt;
+   font-weight: bold;
+   
+
+}
+table#tabelaspecs caption span{
+    display: block;
+    float: right;
+    color: #000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
 
 
 
