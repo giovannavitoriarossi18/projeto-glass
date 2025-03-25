@@ -7,7 +7,7 @@ p{
     text-indent: 20px;
 }
 body{
-    background-color: rgb(133, 19, 133);
+    background-color: #c21cc2;
 }
 div#interface{
     width: 900px;
@@ -22,7 +22,7 @@ header#cabecalho img#icone{
     top: 70px;
 }
 header#cabecalho {
-    border-bottom: 1px hsl(309, 83%, 27%) solid;
+    border-bottom: 1px hsl(300, 5%, 4%) solid;
     height: 150px;
     background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 100px;
 }
@@ -60,7 +60,7 @@ figure.foto-legenda figcaption{
     position: absolute;
     top: 0px;
     background-color: rgba(0, 0, 0, 0.4);
-    color: #a21697;
+    color: hsl(305, 72%, 44%);
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -98,15 +98,15 @@ nav#menu li{
 }
 
 nav#menu li:hover{
-    background-color: hwb(291 4% 55%);
+    background-color: rgb(179, 29, 164);
 }
 nav#menu a{
-    color: hsl(292, 89%, 28%);
+    color: rgb(20, 20, 20);
     text-decoration: none;
 }
 
 nav#menu a:hover{
-    color: hwb(305 4% 44%);
+    color: rgb(189, 27, 176);
     text-decoration: underline;
 }
 /**formatacao da pagina*/
@@ -118,6 +118,40 @@ section#corpo{
   border-right: 1px solid hsl(307, 69%, 24%);
   padding-right: 15px;
 }
+article#noticia-pricipal h2{
+  font-size: 12pt;
+  color: #606060;
+  background-color: #ddd;
+  padding:5px 0px 5px 0px;
+  margin: 10px;
+
+}
+header#cadecalho-artigo h1{
+  font-family: "fontelogo",sans-serif;
+  font-size:  20px; ;
+  color:#606060 ;
+  margin-bottom: 0px;
+}
+header#cadecalho-artigo h2{
+  font-size: 13pt;
+  color: #606060;
+  background-color: #ddd;
+  padding: 5px 0px 0px;
+  margin: 10px;
+
+}
+header#cadecalho-artigo h3{
+  font-size: 10px;
+
+
+}
+.direita{
+   text-align: right;
+
+
+
+
+}
 aside#lateral{
 
    display: block;
@@ -127,7 +161,7 @@ aside#lateral{
 footer#rodape{
 
    clear: both;
-   border-top: 1px solid hsl(307, 69%, 24%);
+   border-top: 1px solid hsl(306, 72%, 41%);
    
 }
 footer#rodape{
@@ -137,7 +171,7 @@ footer#rodape{
 }
 /*formatacao de tabela*/
 table#tabelaspecs{
-   border: 1px solid #650b5c;
+   border: 1px solid hsl(306, 65%, 46%);
    border-spacing: 0px;
    margin-left: auto;
    margin-right: auto;
@@ -145,13 +179,13 @@ table#tabelaspecs{
 }
 table#tabelaspecs td{
 
-   border: 1px solid #58044c;
+   border: 1px solid hwb(0 0% 100%);
    padding: 10px;
    
 }
 table#tabelaspecs td.ce{
    color: hsl(0, 3%, 6%);
-   background-color: hsl(305, 84%, 25%);
+   background-color: rgb(190, 55, 190);
    vertical-align: top;
    font-weight: bold;
 
